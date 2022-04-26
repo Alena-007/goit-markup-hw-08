@@ -14,9 +14,19 @@
     }
 }
 
-.contacts__list:not(:last-child) {
-    margin-bottom: 9px;
+@media screen and (max-width: 767px) {
+    .contacts {
+        margin-bottom: 60px;
+    }
 }
+
+.contacts__list:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+// .contacts__list:not(:last-child) {
+//     margin-bottom: 9px;
+// }
 
 .contacts__link {
     font-style: normal;

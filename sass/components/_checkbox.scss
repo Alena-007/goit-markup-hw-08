@@ -4,22 +4,45 @@
     margin-bottom: 30px;
 
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: $secondary-text-color-theme-light;
 }
 
+// .checkbox-label {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 30px;
+
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: $secondary-text-color-theme-light;
+// }
+
 .checkbox-link {
     margin-left: 4px;
 
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: $primary-accent-color;
 }
+
+// .checkbox-link {
+//     margin-left: 4px;
+
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     text-decoration-line: underline;
+//     color: $primary-accent-color;
+// }
 
 .checkbox {
     position: absolute;

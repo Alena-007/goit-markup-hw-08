@@ -1,21 +1,27 @@
-.projects-list {
-    display: flex;
-    flex-wrap: wrap;
-}
+// .projects-list {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
 
-.projects-item {
-    margin-bottom: 30px;
-    flex-basis: calc((100% - 60px) / 3);
-    border: 1px solid #eeeeee;
-
-    &:nth-last-child(-n + 3) {
-        margin-bottom: 0;
-    }
-
-    &:not(:nth-child(3n)) {
-        margin-right: 30px;
+@media screen and (max-width: 767px) {
+    .projects-item:not(:last-child) {
+        margin-bottom: 30px;
     }
 }
+
+// .projects-item {
+//     margin-bottom: 30px;
+//     flex-basis: calc((100% - 60px) / 3);
+//     border: 1px solid #eeeeee;
+
+//     &:nth-last-child(-n + 3) {
+//         margin-bottom: 0;
+//     }
+
+//     &:not(:nth-child(3n)) {
+//         margin-right: 30px;
+//     }
+// }
 
 .projects-link {
     display: block;

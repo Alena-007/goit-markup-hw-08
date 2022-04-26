@@ -10,21 +10,35 @@
     color: $primary-text-color-theme-dark;
 }
 
+@media screen and (max-width: 767px) {
+    .subscribe-input {
+        margin-bottom: 20px;
+        padding: 16px;
+        width: 450px;
+        height: 50px;
+
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        color: $primary-text-color-theme-dark;
+    }
+}
+
 .subscribe-field {
     position: relative;
 }
 
-.subscribe-input {
-    padding: 16px;
-    margin-right: 12px;
-    width: 358px;
-    height: 50px;
+// .subscribe-input {
+//     padding: 16px;
+//     margin-right: 12px;
+//     width: 358px;
+//     height: 50px;
 
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    color: $primary-text-color-theme-dark;
-}
+//     background-color: transparent;
+//     border: 1px solid rgba(255, 255, 255, 0.3);
+//     border-radius: 4px;
+//     color: $primary-text-color-theme-dark;
+// }
 
 .subscribe-label {
     position: absolute;

@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) {
+    .social {
+        margin-bottom: 60px;
+    }
+}
+
 .social-list {
     display: flex;
     justify-content: center;
@@ -63,9 +69,9 @@
     fill: #fff;
 }
 
-.social {
-    margin-right: 93px;
-}
+// .social {
+//     margin-right: 93px;
+// }
 
 .social-title {
     margin-bottom: 20px;

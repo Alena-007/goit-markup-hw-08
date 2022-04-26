@@ -1,3 +1,9 @@
+@media screen and (max-width: 1119px) {
+    .services {
+        display: none;
+    }
+}
+
 .services-list {
     display: flex;
     flex-wrap: wrap;

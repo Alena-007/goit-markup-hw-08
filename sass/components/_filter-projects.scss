@@ -1,11 +1,23 @@
 .filter-projects {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
+
+// .filter-projects {
+//     margin-bottom: 50px;
+//     display: flex;
+//     justify-content: center;
+// }
 
 .filter-projects-item:not(:last-child) {
     margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .filter-projects-item:nth-child(-n + 3) {
+        margin-bottom: 15px;
+    }
 }
 
 .filter-projects-btn {
