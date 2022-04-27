@@ -1,3 +1,12 @@
+// .logo-contacts-social-subscribe {
+//     display: flex;
+//     align-items: baseline;
+// }
+
+// .logo-contacts {
+//     margin-right: 70px;
+// }
+
 .address-link {
     font-style: normal;
     font-weight: 400;
@@ -16,6 +25,15 @@
 
 @media screen and (max-width: 767px) {
     .contacts {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo-contacts-social {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
         margin-bottom: 60px;
     }
 }

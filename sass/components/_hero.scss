@@ -8,6 +8,13 @@
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('/images/main-page/tablet/main-tab-img.jpg');
+    }
+}
+
 // .hero {
 //     padding-top: 200px;
 //     padding-bottom: 200px;

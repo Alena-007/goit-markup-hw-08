@@ -18,10 +18,22 @@
     color: $primary-accent-color;
 }
 
+@media screen and (max-width: 767px) {
+    .logo_theme_light {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo_theme_light {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+}
+
 .logo_theme_light {
     display: block;
-    padding-top: 16px;
-    padding-bottom: 16px;
     color: #000000;
 }
 

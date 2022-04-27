@@ -5,17 +5,15 @@
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .footer-page {
+        padding-left: 60px;
+        padding-right: 74px;
+    }
+}
+
 // .footer-page {
 //     padding-top: 60px;
 //     padding-bottom: 60px;
 //     background-color: $secondary-background-color-dark;
-// }
-
-// .logo-contacts-social-subscribe {
-//     display: flex;
-//     align-items: baseline;
-// }
-
-// .logo-contacts {
-//     margin-right: 70px;
 // }
