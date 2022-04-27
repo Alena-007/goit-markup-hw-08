@@ -1,7 +1,6 @@
 .filter-projects {
     margin-bottom: 40px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 // .filter-projects {
@@ -17,6 +16,17 @@
 @media screen and (max-width: 767px) {
     .filter-projects-item:nth-child(-n + 3) {
         margin-bottom: 15px;
+    }
+
+    .filter-projects {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .filter-projects {
+        margin-bottom: 30px;
+        justify-content: center;
     }
 }
 

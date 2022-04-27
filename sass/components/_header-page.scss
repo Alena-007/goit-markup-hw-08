@@ -1,5 +1,6 @@
 .header-page {
     position: relative;
+    border: 1px solid #ececec;
 }
 
 .header-container {
@@ -33,12 +34,3 @@
         display: none;
     }
 }
-
-.header-page {
-    border: 1px solid #ececec;
-}
-
-// .header-container {
-//     display: flex;
-//     align-items: center;
-// }

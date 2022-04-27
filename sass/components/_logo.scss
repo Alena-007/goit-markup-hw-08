@@ -6,16 +6,19 @@
     letter-spacing: 0.03em;
 }
 
-// .logo {
-//     font-family: $secondary-font-family;
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-// }
-
 .logo-accent {
     color: $primary-accent-color;
+}
+
+.logo_theme_light {
+    display: block;
+    color: #000000;
+}
+
+.logo_theme_dark {
+    display: block;
+    margin-bottom: 20px;
+    color: $primary-text-color-theme-dark;
 }
 
 @media screen and (max-width: 767px) {
@@ -32,21 +35,15 @@
     }
 }
 
-.logo_theme_light {
-    display: block;
-    color: #000000;
-}
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 26px;
+        line-height: 1.19;
+    }
 
-// .logo_theme_light {
-//     display: block;
-//     padding-top: 24px;
-//     padding-bottom: 24px;
-//     margin-right: 94px;
-//     color: #000000;
-// }
-
-.logo_theme_dark {
-    display: block;
-    margin-bottom: 20px;
-    color: $primary-text-color-theme-dark;
+    .logo_theme_light {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 94px;
+    }
 }

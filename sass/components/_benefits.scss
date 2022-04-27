@@ -1,18 +1,44 @@
-// .benefits {
-//     padding-top: 94px;
-// }
-
-// .benefits-list {
-//     display: flex;
-//     flex-wrap: wrap;
-// }
-
 .benefits-item {
     width: 450px;
     height: 226px;
 
     &:not(:last-child) {
         margin-bottom: 30px;
+    }
+}
+
+.benefits-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background: $secondary-background-color-light;
+    border-radius: 4px;
+}
+
+.benefits-subtitle {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color-theme-light;
+}
+
+@media screen and (max-width: 767px) {
+    .benefits-subtitle {
+        text-align: center;
     }
 }
 
@@ -35,57 +61,17 @@
     }
 }
 
-// .benefits-item {
-//     width: 270px;
-
-//     &:not(:last-child) {
-//         margin-right: 30px;
-//     }
-// }
-
-.benefits-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    margin-bottom: 30px;
-
-    background: $secondary-background-color-light;
-    border-radius: 4px;
-}
-
-// .benefits-wrap {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     width: 270px;
-//     height: 120px;
-//     margin-bottom: 30px;
-
-//     background: $secondary-background-color-light;
-//     border-radius: 4px;
-// }
-
-@media screen and (max-width: 767px) {
-    .benefits-subtitle {
-        text-align: center;
+@media screen and (min-width: 1200px) {
+    .benefits {
+        padding-top: 94px;
     }
-}
 
-.benefits-subtitle {
-    margin-bottom: 10px;
+    .benefits-item {
+        width: 270px;
+    }
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.benefits-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $secondary-text-color-theme-light;
+    .benefits-wrap {
+        width: 270px;
+        height: 120px;
+    }
 }

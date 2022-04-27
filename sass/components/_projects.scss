@@ -1,11 +1,27 @@
-// .projects-list {
-//     display: flex;
-//     flex-wrap: wrap;
-// }
-
 @media screen and (max-width: 767px) {
     .projects-item:not(:last-child) {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects-item {
+        margin-bottom: 30px;
+        flex-basis: calc((100% - 30px) / 2);
+        border: 1px solid #eeeeee;
+
+        &:nth-last-child(-n + 2) {
+            margin-bottom: 0;
+        }
+
+        &:not(:nth-child(2n)) {
+            margin-right: 30px;
+        }
     }
 }
 
