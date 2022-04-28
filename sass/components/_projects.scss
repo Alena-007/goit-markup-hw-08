@@ -62,6 +62,10 @@
     color: $secondary-text-color-theme-light;
 }
 
+.projects-item {
+    border: 1px solid #eeeeee;
+}
+
 @media screen and (max-width: 767px) {
     .projects-item:not(:last-child) {
         margin-bottom: 30px;
