@@ -1,12 +1,3 @@
-@media screen and (max-width: 767px) {
-    .social {
-        margin-bottom: 60px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-}
-
 .social-list {
     display: flex;
     justify-content: center;
@@ -72,10 +63,6 @@
     fill: #fff;
 }
 
-// .social {
-//     margin-right: 93px;
-// }
-
 .social-title {
     margin-bottom: 20px;
 
@@ -85,4 +72,16 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $primary-text-color-theme-dark;
+}
+
+@media screen and (max-width: 767px) {
+    .social {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .social {
+        margin-right: 93px;
+    }
 }
