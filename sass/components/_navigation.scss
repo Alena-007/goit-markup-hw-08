@@ -18,6 +18,10 @@
         line-height: 1.18;
         letter-spacing: 0.02em;
         color: $primary-text-color-theme-light;
+
+        &.current {
+            color: $primary-accent-color;
+        }
     }
 }
 
