@@ -402,6 +402,12 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .tel-mail {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1119px) {
   .tel-mail__item:not(:last-child) {
     margin-bottom: 10px;
@@ -433,12 +439,6 @@ body {
   .tel-mail__link:hover .tel-mail__icon,
   .tel-mail__link:focus .tel-mail__icon {
     fill: #2196f3;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .tel-mail {
-    display: none;
   }
 }
 
