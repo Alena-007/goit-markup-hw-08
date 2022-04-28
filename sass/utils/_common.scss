@@ -40,12 +40,19 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    .container {
+        max-width: 480px;
+    }
     .current {
         color: $primary-accent-color;
     }
 }
 
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
     .current {
         color: $primary-accent-color;
 
