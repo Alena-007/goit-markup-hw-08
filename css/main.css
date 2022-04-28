@@ -1326,8 +1326,13 @@ body {
   }
   .projects-item {
     margin-bottom: 30px;
-    flex-basis: calc((100% - 30px) / 2);
     border: 1px solid #eeeeee;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .projects-item {
+    flex-basis: calc((100% - 30px) / 2);
   }
   .projects-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
